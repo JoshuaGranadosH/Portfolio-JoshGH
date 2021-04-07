@@ -5,5 +5,8 @@
   "license": "MIT",
   "devDependencies": {
     "parcel": "^2.0.0-beta.2"
+  },
+  "scripts":{
+    "dev": "parcel index.html -p 3001"
   }
 }
