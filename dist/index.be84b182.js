@@ -1,194 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio Josh GH</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="/index.f556d9ac.css">
-</head>
-<body>
-    <header>
-        <a href="#" class="logo">Portfolio</a>
-        <div class="toggle" onclick="toggleMenu();"></div>
-        <ul class="menu">
-            <li><a href="#Inicio" onclick="toggleMenu();">Inicio</a></li>
-            <li><a href="#Acerca" onclick="toggleMenu();">Acerca</a></li>
-            <li><a href="#Servicios" onclick="toggleMenu();">Servicios</a></li>
-            <li><a href="#Trabajo" onclick="toggleMenu();">Trabajo</a></li>
-            <li><a href="#Testimonios" onclick="toggleMenu();">Testimonios</a></li>
-            <li><a href="#Contacto" onclick="toggleMenu();">Contacto</a></li>
-        </ul>
-    </header>
-    <section class="banner" id="Inicio">
-        <div class="textBx">
-            <h2>Hola, Soy<br><span>Josh Granados.</span> </h2>
-            <h3>Soy un Front End Web Developer.</h3>
-            <a href="#Acerca" class="btn">Acerca de mi</a>
-        </div>
-    </section>
-    <section class="about" id="Acerca">
-        <div class="heading">
-            <h2>Acerca de mi</h2>
-        </div>
-        <div class="content">
-            <div class="contentBx w50">
-                <h3>Soy un Front End Web Developer.</h3>
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quae 
-                    consectetur architecto est nulla. Reprehenderit commodi accusamus, repellat,
-                    molestias minus tempora nobis, explicabo excepturi eaque eveniet at? Earum, 
-                    sed odit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos, 
-                    quidem inventore reiciendis necessitatibus velit molestiae officia, ea natus maxime 
-                    deserunt sed deleniti obcaecati similique eveniet. Nisi enim mollitia fugiat sed. <br><br>Lorem, 
-                    ipsum dolor sit amet consectetur adipisicing elit. Molestias voluptates eaque sapiente nihil at 
-                    sit nulla quia, ad corporis eligendi magni possimus facilis tempore totam officiis distinctio 
-                    perspiciatis? Dolor, sequi.</p>   
-            </div>
-            <div class="w50">
-                <img src="/img1.e5707d0e.jpg" class="img">
-            </div>
-        </div>
-    </section>
-    <section class="services" id="Servicios">
-        <div class="heading white">
-            <h2>Mis Servicios</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-        <div class="content">
-            <div class="servicesBx">
-                <img src="/icon1.2907c8b7.png">
-                <h2>Diseño Web</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam provident 
-                    natus accusantium molestiae quas consectetur sapiente sit.</p>
-            </div>
-            <div class="servicesBx">
-                <img src="/icon2.233eb860.png">
-                <h2>Desarrollo Web</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam provident 
-                    natus accusantium molestiae quas consectetur sapiente sit.</p>
-            </div>
-            <div class="servicesBx">
-                <img src="/icon3.281636f8.png">
-                <h2>Aplicaciones Android</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam provident 
-                    natus accusantium molestiae quas consectetur sapiente sit.</p>
-            </div>
-            <div class="servicesBx">
-                <img src="/icon4.ac0d9893.png">
-                <h2>Fotografia</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam provident 
-                    natus accusantium molestiae quas consectetur sapiente sit.</p>
-            </div>
-            <div class="servicesBx">
-                <img src="/icon5.1cf51749.png">
-                <h2>Redacción de contenido</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam provident 
-                    natus accusantium molestiae quas consectetur sapiente sit.</p>
-            </div>
-            <div class="servicesBx">
-                <img src="/icon6.67a5a22d.png">
-                <h2>Edición de video</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam provident 
-                    natus accusantium molestiae quas consectetur sapiente sit.</p>
-            </div>
-        </div>
-    </section>
-    <section class="work" id="Trabajo">
-        <div class="heading">
-            <h2>Mis Ultimos Trabajos</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-        <div class="content">
-            <div class="workBx">
-                <img src="/product1.5310ddfb.jpg">
-            </div>
-            <div class="workBx">
-                <img src="/product2.1b49b212.jpg">
-            </div>
-            <div class="workBx">
-                <img src="/product3.965b12d4.jpg">
-            </div>
-            <div class="workBx">
-                <img src="/product4.2d7a5b50.jpg">
-            </div>
-        </div>
-        <div class="heading">
-            <a href="#" class="btn">Ver más</a>
-        </div>
-    </section>
-    <section class="testimonial" id="Testimonios">
-        <div class="heading">
-            <h2>Testimonios</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-        <div class="content">
-            <div class="testimonialBx">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, 
-                    esse molestiae atque vero optio explicabo nihil quibusdam nostrum 
-                    consequatur voluptas dolore. Cumque voluptates odio expedita iusto 
-                    inventore veritatis, ex eos.</p>
-                    <h3>Alguien Famoso<br><span>Diseñador Creativo</span></h3>
-            </div>
-            <div class="testimonialBx">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, 
-                    esse molestiae atque vero optio explicabo nihil quibusdam nostrum 
-                    consequatur voluptas dolore. Cumque voluptates odio expedita iusto 
-                    inventore veritatis, ex eos.</p>
-                    <h3>Alguien Famoso<br><span>Diseñador Creativo</span></h3>
-            </div>
-        </div>
-    </section>
-    <section class="contact" id="Contacto">
-        <div class="heading white">
-            <h2>Contactame</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-        <div class="content">
-            <div class="contactInfo">
-                <h3>Información de Contacto</h3>
-                <div class="contactInfoBx">
-                    <div class="box">
-                        <div class="icon">
-                            <i class="fa fa-map-marker"></i>
-                        </div>
-                        <div class="text">
-                            <h3>Dirección</h3>
-                            <p>N° 26 Alpino Matatenos,<br>Estado de México,<br>54189</p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="icon">
-                            <i class="fa fa-phone"></i>
-                        </div>
-                        <div class="text">
-                            <h3>Telefono</h3>
-                            <p>55-1234-1234</p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="icon">
-                            <i class="fa fa-envelope-o"></i>
-                        </div>
-                        <div class="text">
-                            <h3>Email</h3>
-                            <p>joshua234@gmail.com</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="formBx">
-                <form>
-                    <h3>Escribeme</h3>
-                    <input type="text" name="" placeholder="Nombre Completo">
-                    <input type="email" name="" placeholder="Email">
-                    <textarea placeholder="Tu mensaje"></textarea>
-                    <input type="submit" value="Enviar">
-                </form>
-            </div>
-        </div>
-    </section>
-    <script>// modules are defined as an array
+// modules are defined as an array
 // [ module function, map of requires ]
 //
 // map of requires is short require name -> numeric require
@@ -330,12 +140,12 @@
       this[globalName] = mainExports;
     }
   }
-})({"2XQZf":[function(require,module,exports) {
+})({"7pKmD":[function(require,module,exports) {
 var HMR_HOST = null;
 var HMR_PORT = 3001;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d751713988987e9331980363e24189ce";
-module.bundle.HMR_BUNDLE_ID = "d9ffdb68745b2ed913f8b604c88370c8";
+module.bundle.HMR_BUNDLE_ID = "15524b237f098e3ebfb0e866be84b182";
 // @flow
 /*global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE*/
 /*::
@@ -631,20 +441,11 @@ id) /*: string*/
   acceptedAssets[id] = true;
 }
 
-},{}],"4d0R9":[function(require,module,exports) {
+},{}],"5n6QQ":[function(require,module,exports) {
 window.addEventListener('scroll', function(){
-        const header = document.querySelector('header');
-        header.classList.toggle('sticky', window.scrollY > 0);
-    });
+    const header = document.querySelector('header');
+    header.classList.toggle('sticky', window.scrollY > 0);
+});
+},{}]},["7pKmD","5n6QQ"], "5n6QQ", "parcelRequire50f4")
 
-    function toggleMenu(){
-        var menuToggle = document.querySelector('.toggle');
-        var menu = document.querySelector('.menu');
-        menuToggle.classList.toggle('active');
-        menu.classList.toggle('active');
-    }
-},{}]},["2XQZf","4d0R9"], "4d0R9", "parcelRequire50f4")
-
-</script>
-</body>
-</html>
+//# sourceMappingURL=index.be84b182.js.map
