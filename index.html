@@ -16,15 +16,15 @@
             <li><a href="#Inicio" onclick="toggleMenu();">Inicio</a></li>
             <li><a href="#Acerca" onclick="toggleMenu();">Acerca</a></li>
             <li><a href="#Servicios" onclick="toggleMenu();">Servicios</a></li>
-            <li><a href="#Trabajo" onclick="toggleMenu();">Trabajo</a></li>
-            <li><a href="#Testimonios" onclick="toggleMenu();">Testimonios</a></li>
+            <li><a href="#Trabajo" onclick="toggleMenu();">Proyectos</a></li>
+            <li><a href="#Testimonios" onclick="toggleMenu();">Anecdotas</a></li>
             <li><a href="#Contacto" onclick="toggleMenu();">Contacto</a></li>
         </ul>
     </header>
     <section class="banner" id="Inicio">
         <div class="textBx">
             <h2>Hola, Soy<br><span>Josh Granados.</span> </h2>
-            <h3>Soy un Front End Web Developer.</h3>
+            <h3>Soy un FrontEnd Web Developer.</h3>
             <a href="#Acerca" class="btn">Acerca de mi</a>
         </div>
     </section>
@@ -32,9 +32,9 @@
         <div class="heading">
             <h2>Acerca de mi</h2>
         </div>
-        <div class="content">
+        <div class="content" id="cont">
             <div class="contentBx w50">
-                <h3>Soy un Front End Web Developer.</h3>
+                <h3>Soy un FrontEnd Web Developer.</h3>
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quae 
                     consectetur architecto est nulla. Reprehenderit commodi accusamus, repellat,
                     molestias minus tempora nobis, explicabo excepturi eaque eveniet at? Earum, 
@@ -96,7 +96,7 @@
     </section>
     <section class="work" id="Trabajo">
         <div class="heading">
-            <h2>Mis Ultimos Trabajos</h2>
+            <h2>Mis Ultimos Proyectos</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
         <div class="content">
@@ -119,7 +119,7 @@
     </section>
     <section class="testimonial" id="Testimonios">
         <div class="heading">
-            <h2>Testimonios</h2>
+            <h2>Anecdotas</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
         <div class="content">
@@ -195,8 +195,8 @@
     });
 
     function toggleMenu(){
-        var menuToggle = document.querySelector('.toggle');
-        var menu = document.querySelector('.menu');
+        const menuToggle = document.querySelector('.toggle');
+        const menu = document.querySelector('.menu');
         menuToggle.classList.toggle('active');
         menu.classList.toggle('active');
     }
