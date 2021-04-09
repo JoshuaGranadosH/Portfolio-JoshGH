@@ -341,8 +341,9 @@ img {
     margin-bottom: 0;
 }
 
+
 /*Responsive*/
-@media (max-width: 991px) {
+/* @media (max-width: 991px) {
     header, header.sticky {
         padding: 20px 50px;
         z-index: 1000;
@@ -449,4 +450,4 @@ img {
     section {
         padding: 100px 20px;
     }
-}
+} */
